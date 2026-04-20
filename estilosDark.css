@@ -1,0 +1,23 @@
+#fotologo 
+{
+    width: 250px;
+    height: 250px;
+}
+#cajaLogo
+{
+    width: 100%;
+    background-color:#03318C;
+}
+#textoLogo
+{
+    text-align: center;
+    background-color: #03318C;
+    color:#F2F2F2;
+    font-size: 50px;
+}
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
