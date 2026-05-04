@@ -24,13 +24,25 @@
 
 #image1-serv
 {
+    width: 25%;
+    height: 300px;
+    background-color: #03318C;
+    border-radius: 5px;
     border: 1px solid black;
 }
 #image2-serv
 {
+    width: 25%;
+    height: 300px;
+    background-color: #03318C;
+    border-radius: 5px;
     border: 1px solid black;
 }#image3-serv
 {
+    width: 25%;
+    height: 300px;
+    background-color: #03318C;
+    border-radius: 5px;
     border: 1px solid black;
 }
 .imgServ{
@@ -57,5 +69,38 @@
 }
 #video{
     width: 100%;
+    border-radius: 5px;
+}
+#registro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#tabla{
+    width: 45%;
+}
+#formulario{
+    width: 45%;
+}
+table
+{
+    width: 100%;
+    height: 400px;
+}
+#rutaASony{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#image4-serv
+{
+    width: 25%;
+    height: 300px;
+    border-radius: 5px;
+}
+#image5-serv
+{
+    width: 25%;
+    height: 300px;
     border-radius: 5px;
 }

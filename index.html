@@ -25,13 +25,13 @@
             Sony Play Station
         </div>
 
-    
+
         <nav id="menu">
             <ul>
-            <li><a href=>video</a></li>
-            <li><a href=>menu</a></li>
-            <li><a href=>imagenes</a></li>
-            <li><a href=>configuracion</a></li>
+                <li><a href=>video</a></li>
+                <li><a href=>menu</a></li>
+                <li><a href=>imagenes</a></li>
+                <li><a href=>configuracion</a></li>
             </ul>
         </nav>
     </section>
@@ -41,58 +41,227 @@
         <div id="servicios">
             <div id="image1-serv">
 
-                <img src="imagenes/ps4-pro-frente.webp" alt="">
+                <img src="imagenes/ps5SlimDigital.avif" width="400" height="300" alt="">
 
             </div>
-        
-        
+
+
             <div id="image2-serv">
 
-                <img src="imagenes/ps4-pro-frente.webp" alt="">
+                <img src="imagenes/ps5SlimDisco-removebg-preview.png" width="400" height="300" alt="">
 
             </div>
 
 
             <div id="image3-serv">
 
-                <img src="imagenes/ps4-pro-frente.webp" alt="">
+                <img src="imagenes/Ps5Pro-removebg-preview.png" width="400" height="300" alt="">
 
             </div>
         </div>
         <div id="contenidoPpal">
 
-            <div id=video>
+            <div id=cajvideo>
 
-                <video src="video/PlayStation 5 Pro Console - Reveal Trailer.mp4"></video>
+                <video src="video/YTDown_YouTube_PlayStation-5-Pro-Console-Reveal-Trailer_Media_6HaRMiTfvks_001_1080p.mp4"  width="1280" height="720"></video>
 
             </div>
-            <div id="texto">
+            <div id="textoPpal">
 
             </div>
 
         </div>
+        <div id="registro">
+
+            <div id="tabla">
+                <h2>Consolas de Sony a lo largo de la historia</h2>
+                <table border>
+
+                    <style>
+                        table {
+                            border-collapse: collapse;
+                            width: 100%;
+                        }
+
+                        th,
+                        td {
+                            border: 1px solid #333;
+                            padding: 20px;
+                            vertical-align: middle;
+                        }
+
+                        img {
+                            display: block;
+                        }
+                    </style>
+                    <caption>consolas</caption>
+                    <thead>
+                        <th>Nombre consola</th>
+                        <th>Diseño base</th>
+                        <th>Versiones/Salida al mercado</th>
+                        <th>Copias vendidas</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Play Station 1</td>
+                            <td><img src="imagenes/play 1 imagen.jpeg" width="250" height="200" alt=""></td>
+                            <td>
+                                <ol>
+                                    <li>PS1 Original (Fat) - 1994</li>
+                                    <li>PS one - 2000</li>
+                                </ol>
+                            </td>
+                            <td>102.4 millones</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>Play Station 2</td>
+                            <td><img src="imagenes/play station 2 imagen.webp" width="250" height="200" alt=""></td>
+                            <td>
+                                <ol>
+
+                                    <li>PS2 Original (Fat) - 2000</li>
+                                    <li>PS2 Slim - 2004</li>
+                                    <li>PS2 Super Slim - 2007</li>
+
+                                </ol>
+
+                            </td>
+                            <td>160 millones (La mas vendida por la compañia)</td>
+                        </tr>
+                        <tr>
+                            <td>Play Station 3</td>
+                            <td><img src="imagenes/play station 3 imagen.webp" width="250" height="200" alt=""></td>
+                            <td>
+                                <ol>
+                                    <li>PS3 Original (Fat) - 2006</li>
+                                    <li>PS3 Slim - 2009</li>
+                                    <li>PS3 Super Slim - 2012</li>
+                                </ol>
+                            </td>
+                            <td>87.4 millones</td>
+                        </tr>
+                        <tr>
+                            <td>Play Station 4</td>
+                            <td><img src="imagenes/play station 4 imagen.webp" width="250" height="200" alt=""></td>
+                            <td>
+                                <ol>
+                                    <li>PS4 Original(Fat) - 2013</li>
+                                    <li>PS4 Slim - 2016</li>
+                                    <li>PS4 Pro - 2016</li>
+                                </ol>
+                            </td>
+                            <td>117.2 millones</td>
+                        </tr>
+                        <tr>
+                            <td>Play Station 5</td>
+                            <td><img src="imagenes/play station 5 imagen.webp" width="250" height="200" alt=""></td>
+                            <td>
+                                <ol>
+                                    <li>PS5 Original(fat) - 2020</li>
+                                    <li>PS5 Slim - 2023</li>
+                                    <li>PS5 Pro - 2025</li>
+                                </ol>
+                            </td>
+                            <td>92.1 millones (Sigue en ventas activas)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="formulario">
+                <section>
+                    <form action="">
+                        <h2>Datos del Participante</h2>
+
+                        <label for="nomParticipante">Nombre Completo:</label>
+                        <input type="text" name="nomParticipante" id="nomParticipante" required>
+
+                        <br><br>
+
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" name="correoUsuario" id="correo" placeholder="usuario@ejemplo.com" required>
+
+                        <br><br>
+
+                        <label>¿Posees actualmente una consola Sony?</label><br>
+                        <input type="radio" name="tieneConsola" id="si" value="si">
+                        <label for="si">Sí, tengo una</label>
+                        <input type="radio" name="tieneConsola" id="no" value="no">
+                        <label for="no">No poseo una consola actualmente</label>
+
+                        <br><br>
+
+                        <label>Géneros de juegos favoritos:</label><br>
+                        <input type="checkbox" name="genero" id="accion" value="accion">
+                        <label for="accion">Acción / Aventura</label>
+                        <input type="checkbox" name="genero" id="rpg" value="rpg">
+                        <label for="rpg">RPG</label>
+                        <input type="checkbox" name="genero" id="deportes" value="deportes">
+                        <label for="deportes">Deportes</label>
+
+                        <br><br>
+
+                        <label for="pais">País de residencia:</label>
+                        <select name="paisUsuario" id="pais">
+                            <option value="">-- Selecciona tu país --</option>
+                            <option value="CO">Colombia</option>
+                            <option value="CH">Chile</option>
+                            <option value="PE">Perú</option>
+                            <option value="BR">Brasil</option>
+                            <option value="AR">Argentina</option>
+
+                        </select>
+                        <p>Si tu localidad no se encuentra en las opciones no le sera posible la participacion en el
+                            sorteo.</p>
+                        <br>
+
+                        <label for="foto">Sube una foto de tu perfil de PSN (opcional):</label>
+                        <input type="file" name="fotoUsuario" id="foto">
+
+                        <br><br>
+
+                        <label for="pass">Crea un PIN para consultar resultados:</label>
+                        <input type="password" name="pinSorteo" id="pass" maxlength="4" required>
+
+                        <br><br>
+
+                        <input type="submit" value="¡Registrarme en el Sorteo!">
+                    </form>
+                </section>
+            </div>
+
+
+        </div>
+
 
     </section>
+
+
     <h1>Top sagas mas populares de los video juegos de play station</h1>
     <br>
     <h2>Exclusivos de Sony</h2>
     <br>
-    <h3>Lista de juegos</h3>
-
+    <h3>Lista de juegos:</h3>
+    <br>
     <nav>
-        <ol>
-            <ul>
-                <li><a href="godofwar.html">God of war</a></li>
-                <li><a href="thelastofus.html">The last of us</a></li>
-                <li><a href="uncharted.html">Uncharted</a></li>
-            </ul>
-        </ol>
+        <ul class="lista-juegos">
+            <li><a href="godofwar.html">God of war</a></li>
+            <li><a href="thelastofus.html">The last of us</a></li>
+            <li><a href="uncharted.html">Uncharted</a></li>
+        </ul>
     </nav>
     <a href="https://www.playstation.com/es-co/ps5/games/">
-        <img src="imagenes/images (2).jpeg">
-        <img src="imagenes/images.png">
+        <div id="rutaASony">
+            <div id="image4-serv">
+                <img src="imagenes/images (2).jpeg" width="500" height="250">
+            </div>
+            <div id="image5-serv">
+                <img src="imagenes/images.png" width="350" height="200">
+            </div>
+        </div>
     </a>
-    
+
 
     <h2>Link para participar en sorteo de una Play Station 5 Pro</h2>
     <nav>
@@ -100,91 +269,22 @@
         <li><a href="sorteops.html">Haga clic aqui</a></li>
 
     </nav>
+    <footer>
 
-    <h2>Consolas de Sony a lo largo de la historia</h2>
-    <table border>
-
-
-        <caption>consolas</caption>
-        <thead>
-            <th>Nombre consola</th>
-            <th>Diseño base</th>
-            <th>Versiones/Salida al mercado</th>
-            <th>Copias vendidas</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Play Station 1</td>
-                <td><img src="imagenes/play 1 imagen.jpeg" width="300" height="200" alt=""></td>
-                <td>
-                    <ol>
-                        <li>PS1 Original (Fat) - 1994</li>
-                        <li>PS one - 2000</li>
-
-                    </ol>
-                </td>
-                <td>102.4 millones</td>
-
-
-            </tr>
-            <tr>
-                <td>Play Station 2</td>
-                <td><img src="imagenes/play station 2 imagen.webp" width="300" height="200" alt=""></td>
-                <td>
-                    <ol>
-
-                        <li>PS2 Original (Fat) - 2000</li>
-                        <li>PS2 Slim - 2004</li>
-                        <li>PS2 Super Slim - 2007</li>
-
-                    </ol>
-                </td>
-                <td>160 millones (La mas vendida por la compañia)</td>
-            </tr>
-            <tr>
-                <td>Play Station 3</td>
-                <td><img src="imagenes/play station 3 imagen.webp" width="300" height="200" alt=""></td>
-                <td>
-                    <ol>
-                        <li>PS3 Original (Fat) - 2006</li>
-                        <li>PS3 Slim - 2009</li>
-                        <li>PS3 Super Slim - 2012</li>
-
-                    </ol>
-                </td>
-                <td>87.4 millones</td>
-            </tr>
-            <tr>
-                <td>Play Station 4</td>
-                <td><img src="imagenes/play station 4 imagen.webp" width="300" height="200" alt=""></td>
-                <td>
-                    <ol>
-                        <li>PS4 Original(Fat) - 2013</li>
-                        <li>PS4 Slim - 2016</li>
-                        <li>PS4 Pro - 2016</li>
-
-                    </ol>
-                </td>
-                <td>117.2 millones</td>
-            </tr>
-            <tr>
-                <td>Play Station 5</td>
-                <td><img src="imagenes/play station 5 imagen.webp" width="300" height="200" alt=""></td>
-                <td>
-                    <ol>
-                        <li>PS5 Original(fat) - 2020</li>
-                        <li>PS5 Slim - 2023</li>
-                        <li>PS5 Pro - 2025</li>
-
-                    </ol>
-                </td>
-                <td>92.1 millones (Sigue en ventas activas)</td>
-            </tr>
-        </tbody>
+        <div id="contenidoFooter">
+            <div id="cont1">
 
 
 
-    </table>
+            </div>
+            <div id="cont2">
+
+
+
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
