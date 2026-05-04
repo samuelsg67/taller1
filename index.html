@@ -32,6 +32,7 @@
                 <li><a href=>menu</a></li>
                 <li><a href=>imagenes</a></li>
                 <li><a href=>configuracion</a></li>
+                <li><a href="sorteops.html">Sorteo</a></li>
             </ul>
         </nav>
     </section>
@@ -63,11 +64,38 @@
 
             <div id=cajvideo>
 
-                <video src="video/YTDown_YouTube_PlayStation-5-Pro-Console-Reveal-Trailer_Media_6HaRMiTfvks_001_1080p.mp4"  width="1280" height="720"></video>
+                <video
+                    src="video/YTDown_YouTube_PlayStation-5-Pro-Console-Reveal-Trailer_Media_6HaRMiTfvks_001_1080p.mp4"
+                    id="video" controls></video>
 
             </div>
             <div id="textoPpal">
+                <h1 style="color: white;">PLAY STATION 5 PRO</h1>
+                <br>
 
+                <p style="color: white;">
+                    La PlayStation 5 Pro llega para redefinir el estándar del gaming de alto rendimiento,
+                    eliminando la definitiva elección entre fluidez y calidad visual. Gracias a su nueva GPU
+                    significativamente más potente y a la innovadora tecnología de escalado por IA, conocida como PSSR,
+                    la consola logra imágenes ultra nítidas con una tasa de fotogramas estable. Esta arquitectura
+                    permite
+                    que los juegos más exigentes se ejecuten con una claridad asombrosa, aprovechando un renderizado
+                    hasta
+                    un 45% más veloz que el modelo estándar para transformar por completo la fidelidad gráfica en
+                    pantalla.
+                </p>
+                <br>
+                <p style="color: white;">
+                    Además de su potencia bruta, esta versión introduce mejoras críticas en el trazado de rayos
+                    avanzado, logrando que los reflejos
+                    y la iluminación en tiempo real se procesen al doble de velocidad. Con la inclusión de un
+                    almacenamiento SSD de 2TB y compatibi
+                    lidad con Wi-Fi 7, la PS5 Pro se posiciona como la pieza de hardware definitiva para quienes buscan
+                    la experiencia más inmersiva
+                    y veloz posible. Es una evolución pensada para exprimir cada detalle técnico, garantizando que el
+                    catálogo actual y futuro de
+                    PlayStation luzca con una calidad cinematográfica sin precedentes.
+                </p>
             </div>
 
         </div>
@@ -170,79 +198,75 @@
                 </table>
             </div>
             <div id="formulario">
-                <section>
-                    <form action="">
-                        <h2>Datos del Participante</h2>
+    <section>
+        <form action="">
+            <h2>Encuesta de Comunidad PlayStation</h2>
 
-                        <label for="nomParticipante">Nombre Completo:</label>
-                        <input type="text" name="nomParticipante" id="nomParticipante" required>
+            <label for="consolaEleccion">¿Qué consola de la tabla recuerdas con más cariño?</label><br>
+            <select name="consolaEleccion" id="consolaEleccion" required>
+                <option value="">-- Elige tu favorita --</option>
+                <option value="ps1">PlayStation 1 (La que inició todo)</option>
+                <option value="ps2">PlayStation 2 (La más vendida)</option>
+                <option value="ps3">PlayStation 3 (El salto al HD)</option>
+                <option value="ps4">PlayStation 4 (Grandes exclusivos)</option>
+                <option value="ps5">PlayStation 5 (La nueva generación)</option>
+            </select>
 
-                        <br><br>
+            <br><br>
 
-                        <label for="correo">Correo Electrónico:</label>
-                        <input type="email" name="correoUsuario" id="correo" placeholder="usuario@ejemplo.com" required>
+            <label>¿Qué sagas exclusivas prefieres? (Puedes marcar varias):</label><br>
+            <input type="checkbox" name="exclusivo" id="gow" value="gow">
+            <label for="gow">God of War</label><br>
+            <input type="checkbox" name="exclusivo" id="tlou" value="tlou">
+            <label for="tlou">The Last of Us</label><br>
+            <input type="checkbox" name="exclusivo" id="spiderman" value="spiderman">
+            <label for="spiderman">Marvel's Spider-Man</label><br>
+            <input type="checkbox" name="exclusivo" id="Uncharted" value="Uncharted">
+            <label for="Uncharted">Uncharted</label><br>
+            <input type="checkbox" name="exclusivo" id="got" value="got">
+            <label for="got">Ghost of tsushima</label> <br>
+            <input type="checkbox" name="exclusivo" id="ab" value="ab">
+            <label for="ab">Astro bot</label><br>
+            <input type="checkbox" name="exclusivo" id="hor" value="hor">
+            <label for="hor">Horizon</label><br>
+            <input type="checkbox" name="exclusivo" id="rat&clank" value="rat&clank">
+            <label for="rat&clank">Ratchet & clank</label>
 
-                        <br><br>
+            <br><br>
 
-                        <label>¿Posees actualmente una consola Sony?</label><br>
-                        <input type="radio" name="tieneConsola" id="si" value="si">
-                        <label for="si">Sí, tengo una</label>
-                        <input type="radio" name="tieneConsola" id="no" value="no">
-                        <label for="no">No poseo una consola actualmente</label>
+            <label>¿Te interesa actualizar a la nueva PS5 Pro?</label><br>
+            <input type="radio" name="interesPro" id="interesSi" value="si">
+            <label for="interesSi">Sí, por la potencia</label><br>
+            <input type="radio" name="interesPro" id="interesNo" value="no">
+            <label for="interesNo">No, estoy bien con mi modelo actual</label><br>
+            <input type="radio" name="interesPro" id="interesDuda" value="duda">
+            <label for="interesDuda">Tal vez más adelante</label>
 
-                        <br><br>
+            <br><br>
 
-                        <label>Géneros de juegos favoritos:</label><br>
-                        <input type="checkbox" name="genero" id="accion" value="accion">
-                        <label for="accion">Acción / Aventura</label>
-                        <input type="checkbox" name="genero" id="rpg" value="rpg">
-                        <label for="rpg">RPG</label>
-                        <input type="checkbox" name="genero" id="deportes" value="deportes">
-                        <label for="deportes">Deportes</label>
+            <label for="comentario">¿Qué juego clásico te gustaría ver en PS5 Pro?</label><br>
+            <textarea id="comentario" name="comentario" rows="3" cols="30"></textarea>
 
-                        <br><br>
+            <br><br>
 
-                        <label for="pais">País de residencia:</label>
-                        <select name="paisUsuario" id="pais">
-                            <option value="">-- Selecciona tu país --</option>
-                            <option value="CO">Colombia</option>
-                            <option value="CH">Chile</option>
-                            <option value="PE">Perú</option>
-                            <option value="BR">Brasil</option>
-                            <option value="AR">Argentina</option>
-
-                        </select>
-                        <p>Si tu localidad no se encuentra en las opciones no le sera posible la participacion en el
-                            sorteo.</p>
-                        <br>
-
-                        <label for="foto">Sube una foto de tu perfil de PSN (opcional):</label>
-                        <input type="file" name="fotoUsuario" id="foto">
-
-                        <br><br>
-
-                        <label for="pass">Crea un PIN para consultar resultados:</label>
-                        <input type="password" name="pinSorteo" id="pass" maxlength="4" required>
-
-                        <br><br>
-
-                        <input type="submit" value="¡Registrarme en el Sorteo!">
-                    </form>
-                </section>
-            </div>
+            <input type="submit" value="Enviar mis preferencias">
+        </form>
+    </section>
+</div>
 
 
         </div>
 
 
     </section>
+<br>
+<br>
 
-
-    <h1>Top sagas mas populares de los video juegos de play station</h1>
+    <h1 style="color: red;">Top sagas mas populares de los video juegos de play station</h1>
     <br>
-    <h2>Exclusivos de Sony</h2>
+    <h2 style="color: yellow;">Exclusivos de Sony</h2>
     <br>
-    <h3>Lista de juegos:</h3>
+    <h3 style="color: skyblue;">Lista de juegos:</h3>
     <br>
     <nav>
         <ul class="lista-juegos">
@@ -262,13 +286,6 @@
         </div>
     </a>
 
-
-    <h2>Link para participar en sorteo de una Play Station 5 Pro</h2>
-    <nav>
-
-        <li><a href="sorteops.html">Haga clic aqui</a></li>
-
-    </nav>
     <footer>
 
         <div id="contenidoFooter">
