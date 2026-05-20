@@ -20,6 +20,8 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 #image1-serv
@@ -29,6 +31,10 @@
     background-color: #A4A5A6;
     border-radius: 5px;
     border: 1px solid black;
+    box-shadow: 5px 5px 15px 2px white;
+}
+#image1-serv:hover {
+  background-color: white;
 }
 #image2-serv
 {
@@ -37,20 +43,30 @@
     background-color: #0339A6;
     border-radius: 5px;
     border: 1px solid black;
-}#image3-serv
+    box-shadow: 5px 5px 15px 2px white;}
+    #image2-serv:hover {
+  background-color: white;
+}
+#image3-serv
 {
     width: 25%;
     height: 300px;
     background-color: #353940;
     border-radius: 5px;
     border: 1px solid black;
+    box-shadow: 5px 5px 15px 2px white;
+}
+#image3-serv:hover {
+  background-color: white;
 }
 .imgServ{
     width: 100%;
 }
+
 #contenidoPpal
 {
     display: flex;
+    flex-wrap: wrap
 }
 #contenidoPpal
 {
@@ -120,4 +136,38 @@ table
 {
   width: 40%;
 
+}
+@media(max-width: 450px) {
+  /* Forzamos a TODOS los contenedores flex a hacerse columnas verticales */
+  #servicios, 
+  #contenidoPpal, 
+  #registro, 
+  #contenidoFooter, 
+  #rutaASony {
+    flex-direction: column;
+  }
+
+  #image1-serv, #image2-serv, #image3-serv, #image4-serv, #image5-serv, #cont1, #cont2 {
+    width: 100%; /* Mejor 100% para aprovechar el espacio del cel */
+    margin-bottom: 15px;
+  }
+
+  #tabla, #formulario, #cajvideo, #textoPpal {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #contenidoFooter {
+    padding: 20px; /* Reducido para que no se coma la pantalla del móvil */
+  }
+  
+  /* El menú horizontal suele romperse en celulares, es mejor quitarle el padding exagerado */
+  #menu li {
+    padding-left: 15px; 
+    font-size: 16px;
+  }
+}
+  
+#correoPropietario:valid{
+    background-color: #03318C;
 }
